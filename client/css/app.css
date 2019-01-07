@@ -9,7 +9,9 @@ body {
     height: 50px;
 }
 
-h1 {
-    font-size: 40px;
+.letter {
+    font-family:  Helvetica, sans-serif;
+    font-size: 180px;
     margin-top: 30px;
 }
+

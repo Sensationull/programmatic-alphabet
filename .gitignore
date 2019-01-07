@@ -65,3 +65,6 @@ typings/
 
 # the bundle
 dist/
+
+# the png
+Algorithim.png
