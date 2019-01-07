@@ -1,0 +1,30 @@
+{
+  "name": "programmatic-alphabet",
+  "version": "1.0.0",
+  "description": "A is for Algorithm...",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel client/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewjohnso7/programmatic-alphabet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewjohnso7/programmatic-alphabet/issues"
+  },
+  "homepage": "https://github.com/andrewjohnso7/programmatic-alphabet#readme",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.11.0"
+  }
+}
