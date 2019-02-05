@@ -7,8 +7,14 @@ import SelectScreen from "../components/selectScreen.js";
 class HelloMessage extends Component {
     render() {
         return <div className="application">
+            <div className="wrapper-header">
+                <header className= "header">HELLLLOOOO</header>
+            </div>
             <div className="screen-container">
                 <SelectScreen></SelectScreen>
+            </div>
+            <div className="wrapper-footer">
+                <footer className="footer">BYE BYE</footer>
             </div>
         </div>
     }
