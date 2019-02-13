@@ -31,9 +31,10 @@ html, body, #app, .application {
 }
 
 .screen-container {
-    border: 3px groove purple;
+    border: 3px groove yellow;
     display: flex;
     justify-content: center;
+    align-items: center;
     max-width: fit-content;
     width:100%;
 }
@@ -41,11 +42,13 @@ html, body, #app, .application {
 .container {
     display: flex;
     border: 2px dotted red;
-    align-items: center;
 }
 
 .box-1 {
     margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .box-4 {
@@ -53,22 +56,35 @@ html, body, #app, .application {
 }
 
 .box {
-    
     width: 208px;
     height: 342px;
-    border: 1px solid dodgerblue;
+    border: 1px dotted dodgerblue;
     justify-content: center;
     margin: 5px;
 }
 
-.box-1 {
-    margin-left: 0px;
+#bolt {
+    height: 36px;
+    width: 41px;
+    max-width: max-content;
+    max-height: max-content;
 }
 
+/* .box-1 {
+    margin-left: 0px;
+} */
 
+
+
+.box-img {
+    height: 176px;
+    width: 206px;
+    max-width: max-content;
+    max-height: max-content;
+}
 
 body {
-    background-image: url('../../OW.png');
+    background-image: url('../../assets/OW.png');
     background-position: center;
     background-size: 100%;
 }

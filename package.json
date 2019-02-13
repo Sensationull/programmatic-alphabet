@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/andrewjohnso7/programmatic-alphabet#readme",
   "dependencies": {
+    "assets": "^3.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },

@@ -68,3 +68,6 @@ dist/
 
 # the png
 Algorithim.png
+
+#DS Store
+.DS_Store
